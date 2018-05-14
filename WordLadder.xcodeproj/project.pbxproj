@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A626A021BF2CAB100F9625A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A626A011BF2CAB100F9625A /* main.cpp */; };
+		1A913F881BF3CBE10072213E /* Wordladder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A913F861BF3CBE10072213E /* Wordladder.cpp */; };
+		1AAD65591C083F4000D8E162 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AAD65571C083F4000D8E162 /* Graph.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A6269FC1BF2CAB100F9625A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A6269FE1BF2CAB100F9625A /* WordLadder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordLadder; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A626A011BF2CAB100F9625A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1A913F861BF3CBE10072213E /* Wordladder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wordladder.cpp; sourceTree = "<group>"; };
+		1A913F871BF3CBE10072213E /* Wordladder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Wordladder.hpp; sourceTree = "<group>"; };
+		1AAD65571C083F4000D8E162 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Graph.cpp; path = ../Graph.cpp; sourceTree = "<group>"; };
+		1AAD65581C083F4000D8E162 /* Graph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Graph.hpp; path = ../Graph.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6269FB1BF2CAB100F9625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6269F51BF2CAB100F9625A = {
+			isa = PBXGroup;
+			children = (
+				1A626A001BF2CAB100F9625A /* WordLadder */,
+				1A6269FF1BF2CAB100F9625A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6269FF1BF2CAB100F9625A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6269FE1BF2CAB100F9625A /* WordLadder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A626A001BF2CAB100F9625A /* WordLadder */ = {
+			isa = PBXGroup;
+			children = (
+				1A626A011BF2CAB100F9625A /* main.cpp */,
+				1A913F861BF3CBE10072213E /* Wordladder.cpp */,
+				1A913F871BF3CBE10072213E /* Wordladder.hpp */,
+				1AAD65571C083F4000D8E162 /* Graph.cpp */,
+				1AAD65581C083F4000D8E162 /* Graph.hpp */,
+			);
+			path = WordLadder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6269FD1BF2CAB100F9625A /* WordLadder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A626A051BF2CAB100F9625A /* Build configuration list for PBXNativeTarget "WordLadder" */;
+			buildPhases = (
+				1A6269FA1BF2CAB100F9625A /* Sources */,
+				1A6269FB1BF2CAB100F9625A /* Frameworks */,
+				1A6269FC1BF2CAB100F9625A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordLadder;
+			productName = WordLadder;
+			productReference = 1A6269FE1BF2CAB100F9625A /* WordLadder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6269F61BF2CAB100F9625A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "James Dalton";
+				TargetAttributes = {
+					1A6269FD1BF2CAB100F9625A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A6269F91BF2CAB100F9625A /* Build configuration list for PBXProject "WordLadder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A6269F51BF2CAB100F9625A;
+			productRefGroup = 1A6269FF1BF2CAB100F9625A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6269FD1BF2CAB100F9625A /* WordLadder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6269FA1BF2CAB100F9625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A626A021BF2CAB100F9625A /* main.cpp in Sources */,
+				1AAD65591C083F4000D8E162 /* Graph.cpp in Sources */,
+				1A913F881BF3CBE10072213E /* Wordladder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A626A031BF2CAB100F9625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A626A041BF2CAB100F9625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A626A061BF2CAB100F9625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A626A071BF2CAB100F9625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6269F91BF2CAB100F9625A /* Build configuration list for PBXProject "WordLadder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A626A031BF2CAB100F9625A /* Debug */,
+				1A626A041BF2CAB100F9625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A626A051BF2CAB100F9625A /* Build configuration list for PBXNativeTarget "WordLadder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A626A061BF2CAB100F9625A /* Debug */,
+				1A626A071BF2CAB100F9625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6269F61BF2CAB100F9625A /* Project object */;
+}
